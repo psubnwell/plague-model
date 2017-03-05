@@ -43,7 +43,7 @@ To simulate the effect of drug:
 
 To view the entire change process:
 
-![whole change process](./pic/1-12.jpg)
+![whole change process](./pic/1_12.jpg)
 
 The trend of data:
 
@@ -51,6 +51,6 @@ The trend of data:
 
 ## Other
 
-Nearly no comments added currently. :joy:
+Nearly no comments added currently. :sweat_smile:
 
-Some English words are used uncorrectly. :joy:
+Some English words are used uncorrectly. :sweat_smile:
