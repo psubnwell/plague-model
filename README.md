@@ -8,6 +8,7 @@ You can also simulate more scences and find more fun by tuning the parameters yo
 ## Install Octave
 
 To run the program, you need MATLAB/Octave installed in your environment, and personally I'll recommend Octave since it's open-source and nearly the same as MATLAB!
+
 It's very easy to install Octave for Mac:
 ```
 $ brew install octave
@@ -16,6 +17,16 @@ $ brew install octave
 ```
 $ sudo apt install octave
 ```
+
+### bar3 problem
+
+`bar3` is a function used in `main.m` to plot the figures.
+
+If you use MATLAB, this error won't occur since `bar3` function is implemented in MATLAB already.
+
+If you use Octave, `bar3` function is not a built-in function so you can use `surf` function instead.
+
+A user named **Amro** on Stack Overflow implemented a `bar3` replacement for Octave and seems to be running perfectly! I named it as `amro_bar3.m`, so you can find `amro_bar3` option in `main.m`, and use it to plot `bar3`-style figures as MATLAB do.
 
 ## Run
 
@@ -28,7 +39,10 @@ then open Octave and execute the `main.m` under its prompt:
 $ octave
 octave:1> main
 ```
+(**Notice:** Don't run `main.m` out of Octave, like `$ octave main.m`, otherwise the figure window crashs.)
+
 All done! You should now see the example figure with definite parameters I set in the `main.m`.
+
 Feel free to try different parameters. Have fun~ :smile:
 
 ## Demo
