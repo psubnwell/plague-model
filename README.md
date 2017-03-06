@@ -1,4 +1,4 @@
-# Plague VS. Drug!
+# Plague vs. Drug!
 
 ## Introduction
 
