@@ -26,7 +26,7 @@ If you use MATLAB, this error won't occur since `bar3` function is implemented i
 
 If you use Octave, `bar3` function is not a built-in function so you can use `surf` function instead.
 
-A user named **Amro** on Stack Overflow implemented a `bar3` replacement for Octave and seems to be running perfectly! I named it as `amro_bar3.m`, so you can find `amro_bar3` option in `main.m`, and use it to plot `bar3`-style figures as MATLAB do.
+A user named **Amro** on [Stack Overflow](http://stackoverflow.com/questions/24180890/3d-histogram-with-gnuplot-or-octave/24567637#24567637?newreg=f3e1741f209043deb5f55a793a565007) implemented a `bar3` replacement for Octave and seems to be running perfectly! I named it as `amro_bar3.m`, so you can find `amro_bar3` option in `main.m`, and use it to plot `bar3`-style figures as MATLAB do.
 
 ## Run
 
